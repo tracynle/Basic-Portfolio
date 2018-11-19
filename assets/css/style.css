@@ -1,11 +1,127 @@
 body {
+    background-image: url("../images/pipes/pipes.png");
 
 }
 
+/*Name in teal */
 header {
+    font-family: 'Georgia','Times New Roman', Times, serif;
+    width: 960px;
+    margin: auto;
+    color: #ffffff;
+    overflow: auto;
+}
+
+#headercontainer {
+    border-bottom: 2px solid #cccccc;
+    background-color: #ffffff;
+    
+}
+
+/* Bio */
+#maincontent {
+    color: #777777;
+    background-color: #ffffff;
+    font-family: 'Georgia','Times New Roman', Times, serif;
+    width: 960px;
+    font-size: 15px;
+    margin: auto;
+    overflow: auto;
+    clear: both;
 
 }
 
-p {
+#maincontentcontainer {
+    margin-top: 35px;
+}
+
+#maincontent h1 {
+    color: #4aaaa5;
+    font-family: 'Georgia','Times New Roman', Times, serif;
+    font-size: 35px;
+    padding-left: 25px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-bottom: 0;
     
+}
+
+#maincontent hr {
+    margin: 0;
+}
+
+.myname {
+    float: left;
+    background-color: #4aaaa5;
+    width: 200px;
+    height: 72px;
+    text-align: center;
+    font-size: 35px;
+
+}
+
+.myname > div {
+    vertical-align: middle;
+    display: table-cell;
+    height: inherit;
+    width: inherit;
+}
+
+#aboutme {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 25px;
+    
+}
+
+ul {
+    list-style-type: circle;
+    margin-left: 450px;
+}
+img { 
+    float: left;
+    padding: 30px;
+    
+
+}
+
+
+
+
+.nav {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    float: right;
+    font-size: 15px;
+    padding: 15px;
+    float: right;
+
+    
+}   
+
+#footercontainer {
+    border-top: 7px solid #4aaaa5; 
+    background-color: #666666;
+    height: 45px;
+
+}
+
+#footer {
+    text-align: center;   
+    width: 960px;
+    margin: auto;
+    color: #ffffff;
+    font-size: 10px;
+    margin-top: -10px;
+    height: inherit;
+}
+
+#footer div {
+    height: inherit;
+    width: inherit;
+    vertical-align: bottom;
+    display: table-cell;
+    
+    padding: 20px;
 }
