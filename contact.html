@@ -1,11 +1,14 @@
-<!DOCTYPE <!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en-us">
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Contact</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
 </head>
 <body>
     
@@ -33,32 +36,29 @@
     
     <div id="maincontainer">
         <section id="maincontent">
-            <section>
+            <article>
                 <h1>Contact</h1>
                 <hr>
-
-                <form>
-                    <div class="form-group">
-                        <label for="Inputname">Name</label>
-                        <input type="name" class="form-control" id="inputname" aria-describedby="nameHelp" placeholder="John Doe">
-                        <small id="name" class="form-text text-muted"></small>
-                    </div>
-                    
-                    <div class="form-group">
-                            <label for="InputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="example@gmail.com">
-                            <small id="email" class="form-text text-muted"></small>
-                          </div>
-                                
-                    <div class="form-group form-check">
-                        <input type="message" class="form-check-input" id="message">
-                        <label class="message" for="message"></label>
-                    </div>
+                    <form>
+                        <div class="form-group">
+                            <label for="Inputname">Name</label>
+                            <input type="name" class="form-control" id="inputname" aria-describedby="nameHelp" placeholder="John Smith">
+                        </div>
+                        
+                        <div class="form-group">
+                                <label for="InputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="example@gmail.com">
+                            </div>
+                                    
+                        <div class="form-group form-check">
+                                <label for="message">Message:</label>
+                                <textarea class="form-control" rows="5" id="message" name="text"></textarea>
+                        </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                     
-                </form>
-            
-            </section>
+                    </form>
+                
+            </article>
 
             
         </section>
@@ -68,6 +68,6 @@
     <footer id="footer">
         <div>Copyright©</div>
     </footer>
-
+</div>
 </body>
 </html>
