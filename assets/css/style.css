@@ -121,6 +121,8 @@ a:active, a.nav-link:active {
     font-size: 15px;
     margin-top: 6px;
     margin-right: 30px;
+    margin-top: 20px;
+
     
 }
 
@@ -128,9 +130,16 @@ ul {
     list-style-type: circle;
     margin-left: 450px;
 }
-img { 
+img {
+    width: 310px;
+    padding: 25px;
+    height: 210px;
+
+}
+img#profilepic {
+    width: 310px;
+    height: 400px;
     float: left;
-    padding: 30px; 
 
 }
 
@@ -211,33 +220,31 @@ button, .btn.btn-primary {
 
 .underlay { 
     position: relative;
-    margin-bottom: 35px;
+    margin-bottom: 100px;
 }
+/*
 img {
-    /* vertical-align: middle;
-    border-style: none; */
     width: 310px;
     padding: 10px;
 }
-
+*/
 .overlaytravel {
     position: absolute;
     background-color: #4aaaa5;
     color: #ffffff;
-    left: 320px;
-    right: 350px;
-    bottom: -228px;
-    text-align: center; 
-            
+    left: 338px;
+    right: 362px;
+    bottom: 24px;
+    text-align: center;
 }
 
 .overlayfilm {
     position: absolute;
     background-color: #4aaaa5;
     color: #ffffff;
-    left: 10px;
-    right: 660px;
-    bottom: -224px;
+    left: 25px;
+    right: 675px;
+    bottom: 24px;
     text-align: center; 
             
     
@@ -247,10 +254,8 @@ img {
     position: absolute;
     background-color: #4aaaa5;
     color: #ffffff;
-    left: 630px;
-    right: 40px;
-    bottom: -228px;
-    text-align: center; 
-            
-    
+    left: 652px;
+    right: 48px;
+    bottom: 24px;
+    text-align: center;
 }
